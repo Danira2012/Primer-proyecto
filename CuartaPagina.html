@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Tienda Virtual</div>
+         <nav>
+            <ul>
+                <li><a href="Sitio.HTML">Inicio</a></li>
+                <li><a href="SegundaPagina.html">Productos</a></li>
+                <li><a href="TerceraPagina.html">Carrito</a></li>
+                <li><a href="CuartaPagina.html">Contacto</a></li>
+                <button class="btn">Comprar</button>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <div class="texto">En este sitio web puedes encontrar cualquier cosa que quieras comprar.</div>
+                <div class="texto">Empieza a buscar productos</div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img src="Copy (3).png" alt="Imagen de la tienda">
+        <img src="Image (5).png" alt="Imagen de la tienda">
+        <h1>Contactarme</h1>
+        <form action="procesar_formulario.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+        <img src="2.png" alt="Imagen de la tienda">
+    </main>
